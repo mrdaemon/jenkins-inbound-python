@@ -9,4 +9,4 @@ RUN apt-get update && \
         python3-venv && \
     rm -rf /var/lib/apt/lists/*
 
-USER daemon
+USER jenkins
